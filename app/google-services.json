@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "400197380741",
+    "firebase_url": "https://ridi-c62ca.firebaseio.com",
+    "project_id": "ridi-c62ca",
+    "storage_bucket": "ridi-c62ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400197380741:android:f357c173eb184aba",
+        "android_client_info": {
+          "package_name": "rk.rabbitt.ridi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400197380741-kjujsi80t79jrh5mrp3itcuhiv2s3hlj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rk.rabbitt.ridi",
+            "certificate_hash": "f4a58c4705a32aaca975e5cb10c958146f8f612b"
+          }
+        },
+        {
+          "client_id": "400197380741-4umbl4h1rn3981sgl3mquoi81s32nkuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVVVJ3mqIwnXBFGdqMPr7VBdswRVLcusE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400197380741-4umbl4h1rn3981sgl3mquoi81s32nkuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

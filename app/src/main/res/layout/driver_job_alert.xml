@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".driverJob_alert">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/book_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="booking id" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="travel type" />
+
+    <TextView
+        android:id="@+id/vehcile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vehicle type" />
+
+    <TextView
+        android:id="@+id/pickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pickup location" />
+
+    <TextView
+        android:id="@+id/drop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="drop location" />
+
+    <TextView
+        android:id="@+id/package_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="package" />
+
+    <TextView
+        android:id="@+id/timeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="job time" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="gotoNavigation"
+            android:text="Accept" />
+        <Button
+            android:id="@+id/decline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="stopAlarm"
+            android:text="Reject" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
